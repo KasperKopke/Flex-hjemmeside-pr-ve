@@ -3,16 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 nav {
   background-color: #000000;
   width: 100%;
 }
-
 nav ul li a:hover {
   color: orange;
 }
-
 ul {
   color: white;
   display: flex;
@@ -21,57 +18,46 @@ ul {
   padding: 45px;
   justify-content: flex-end;
 }
-
 .h2-main {
   width: 100%;
   font-size: 48px;
   text-align: center;
 }
-
 a {
   text-decoration: none;
   color: #cecece;
 }
-
 nav ul li:first-child {
   margin-left: 60px;
 }
-
 fa-solid,
 fa-cart-shopping {
   color: white;
 }
-
 fa-camera {
   font-size: 30px;
   color: #000000;
 }
-
 .categories i {
   font-size: 30px;
   text-align: center;
 }
-
 .category-nam {
   color: #000000;
 }
-
 nav ul li:last-child {
   margin-right: 60px;
 }
-
 nav ul li:nth-child(3) {
   margin-right: auto;
   justify-content: center;
 }
-
 nav ul li:nth-child(4) {
   margin-right: auto;
   display: flex;
   justify-content: center;
   padding-right: 60px;
 }
-
 header {
   background-image: url("/assets/header-pic.png");
   height: 648px;
@@ -82,13 +68,11 @@ header {
   justify-content: center;
   align-items: center;
 }
-
 h1 {
   color: #fff3c7;
   font-size: 56px;
   margin-bottom: 24px;
 }
-
 .p-main {
   text-align: center;
   color: #fbf7ea;
@@ -96,7 +80,6 @@ h1 {
   width: 100%;
   max-width: 560px;
 }
-
 .btn {
   margin-top: 12px;
   background-color: #fff3c7;
@@ -105,11 +88,9 @@ h1 {
   font-size: 16px;
   padding: 0.8em 3em;
 }
-
 .btn:hover {
   background-color: rgb(45, 45, 45);
 }
-
 .categories {
   background-color: #fbf7ea;
   display: flex;
@@ -117,27 +98,22 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-
 .categories ul {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 136px;
 }
-
 .categories li a {
   display: flex;
   flex-direction: column;
 }
-
 .categories li a:hover {
   color: orange;
 }
-
 .highlights {
   background-color: black;
 }
-
 .div-wrapper {
   max-width: 1080px;
   margin: 0 auto;
@@ -147,33 +123,27 @@ h1 {
   align-items: center;
   flex-wrap: wrap;
 }
-
 .categories h2 {
   margin-top: 73px;
 }
-
 .highlights {
   margin: auto;
 }
-
 .highlights h2 {
   color: #fbf7ea;
   margin-top: 73px;
   margin-bottom: 21px;
 }
-
 .highlights article {
   width: 100%;
   max-width: 528px;
   margin: 72px 0px 0px 12px;
 }
-
 .highlights h3 {
   color: #fff;
   text-align: center;
   margin-top: 23px;
 }
-
 .highlights a {
   display: flex;
   align-items: center;
@@ -182,39 +152,31 @@ h1 {
   margin-top: 7px;
   margin-bottom: 71px;
 }
-
 .trending-products p {
   color: black;
 }
-
 .trending-products {
   background-color: #fbf7ea;
   display: flex;
 }
-
 .trending-products h3 {
   color: black;
 }
-
 .trending-products article {
   padding-right: 24px;
   margin-top: 72px;
 }
-
 .trending-products h2 {
   margin-top: 73px;
   margin-bottom: 21px;
 }
-
 .trending-products article p,
 h3 {
   padding-top: 10px;
 }
-
 .trending-article-wrap {
   display: flex;
 }
-
 .inspiring-products {
   background-image: url("/assets/cactus.png");
   background-repeat: no-repeat;
@@ -224,17 +186,14 @@ h3 {
   justify-content: center;
   align-items: center;
 }
-
 .inspiring-products h2 {
   margin-top: 250px;
   color: #fbf7ea;
   padding-bottom: 13px;
 }
-
 .inspiring-products p {
   font-size: 18px;
 }
-
 .on-sale {
   display: flex;
   justify-content: center;
@@ -242,16 +201,13 @@ h3 {
   flex-wrap: wrap;
   background-color: black;
 }
-
 .on-sale p {
   color: white;
 }
-
 .on-sale h2,
 h3 {
   color: #fbf7ea;
 }
-
 .on-sale h3 {
   margin-bottom: 12px;
 }
@@ -259,7 +215,6 @@ h3 {
   margin-top: 73px;
   margin-bottom: 21px;
 }
-
 .on-sale-top-pic {
   margin-top: 72px;
   display: flex;
@@ -267,7 +222,6 @@ h3 {
   align-items: center;
   width: 100%;
 }
-
 .on-sale-bottom-pic {
   display: flex;
   justify-content: center;
@@ -276,11 +230,9 @@ h3 {
   width: 100%;
   margin-bottom: 65px;
 }
-
 .on-sale article {
   padding-right: 24px;
 }
-
 .product-spotlight {
   background-color: #396c54;
   display: flex;
@@ -288,30 +240,24 @@ h3 {
   align-items: center;
   flex-direction: column;
 }
-
 .product-spotlight p {
   color: #a1a1a1;
 }
-
 .product-spotlight img {
   margin-bottom: 90px;
 }
-
 .product-spotlight h2 {
   margin-top: 73px;
   margin-bottom: 88px;
   color: white;
 }
-
 .product-news article p {
   width: 100%;
   max-width: 320px;
 }
-
 .product-news article {
   padding-right: 24px;
 }
-
 .product-news {
   display: flex;
   justify-content: center;
@@ -320,7 +266,6 @@ h3 {
   flex-wrap: wrap;
   background-color: #000000;
 }
-
 .product-news-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -328,35 +273,28 @@ h3 {
   justify-content: center;
   align-items: center;
 }
-
 .product-news h2,
 h4 {
   color: white;
 }
-
 .product-news h2 {
   padding-top: 73px;
 }
-
 .product-news-p-top {
   margin-top: 21px;
   margin-bottom: 64px;
 }
-
 .product-news h4 {
   margin-top: 14px;
 }
-
 .product-news-p-article {
   margin-top: 21px;
   text-align: start;
 }
-
 .weekly-newsletter {
   background-color: #396c54;
   display: flex;
 }
-
 .div-news {
   max-width: 1080px;
   margin: 0 auto;
@@ -365,13 +303,11 @@ h4 {
   justify-content: flex-start;
   align-items: flex-start;
 }
-
 .weekly-newsletter h2,
 a {
   margin-top: 73px;
   margin-bottom: 70px;
 }
-
 .weekly-newsletter h2 {
   font-size: 32px;
   color: white;
@@ -385,7 +321,6 @@ a {
 .address {
   background-color: #fbf7ea;
 }
-
 .address-wrapper {
   max-width: 1080px;
   margin: 0 auto;
@@ -395,24 +330,20 @@ a {
   align-items: flex-start;
   flex-wrap: wrap;
 }
-
 .address h3,
 h4,
 p {
   color: #000000;
 }
-
 .address h4 {
   padding-top: 31px;
   padding-bottom: 49px;
 }
-
 .address h4 {
   padding-top: 31px;
   padding-bottom: 49px;
   width: 170px;
 }
-
 .address ul {
   display: flex;
   justify-content: flex-end;
@@ -424,13 +355,11 @@ p {
   width: 50%;
   margin-bottom: 127px;
 }
-
 .address-article-right {
   margin-top: 80px;
   width: 50%;
   font-size: 30px;
 }
-
 .fa-brands,
 .fa-regular {
   color: #000000;
@@ -439,7 +368,6 @@ p {
 .fa-regular:hover {
   color: orange;
 }
-
 .address h3 {
   font-size: 24px;
 }
